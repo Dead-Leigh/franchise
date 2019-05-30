@@ -1,0 +1,18 @@
+.hero{
+  background-image: url("img/hero.jpg");
+  background-size: cover;
+}
+
+
+.font{
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.tool-bar{
+  background-color: grey;
+  /* opacity: 0.5; */
+  /* used BS position for fixed-bottom */
+
+}
