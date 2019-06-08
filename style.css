@@ -14,17 +14,16 @@
   background-color: grey;
   opacity: 0.5;
   position: absolute;
-  top: 250px;
+  top: 500px;
   /* used BS position for fixed-bottom */
 
 }
 
-.P{
+P{
   font-size: 18px;
 }
 
 .box{
-
 
 }
 
@@ -37,4 +36,13 @@
 
 .junk{
   margin-top: 93px;
+}
+
+.owner{
+  background-color: #8080800d;
+}
+
+.flag{
+  float: center;
+
 }
