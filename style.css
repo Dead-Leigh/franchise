@@ -64,3 +64,32 @@ P{
   position: absolute;
   width: 80px;
 }
+
+.rated{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.box{
+  background-color: #8080800d;
+  margin-top: 40px;
+}
+
+.font{
+  font-size: 20px;
+}
+
+il{
+  font-size: 20px;
+}
+
+.table{
+  margin-top: 10PX;
+  padding-left: 63px;
+  padding-top: 45px;
+}
+
+.remove{
+  padding-bottom: 8px;
+}
