@@ -77,7 +77,7 @@ P{
 }
 
 .font{
-  font-size: 20px;
+  font-size: 40px;
 }
 
 il{
@@ -88,8 +88,24 @@ il{
   margin-top: 10PX;
   padding-left: 63px;
   padding-top: 45px;
+  font-size: 32px;
+  padding-bottom: 10px;
 }
 
 .remove{
   padding-bottom: 8px;
+}
+
+.foot{
+  background-color: #221e1f;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.footimg{
+  item-align: center;
+  margin-top: 50px;
 }
