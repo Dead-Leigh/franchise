@@ -16,14 +16,16 @@
 
 .tool-bar{
   background-color: black;
-  bottom: : 0px !important;
-  opacity: 0.5;
-  position: absolute;
-  color: white;
   margin-top: auto;
-  padding-top: 10px;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.5;
+  color: white;
+  font-weight: bold;
+
+  /* padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 10px; */
   /* used BS position for fixed-bottom */
 
 }
