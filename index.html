@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -22,7 +22,6 @@
         </a>
 
 
-
         <div class="collapse navbar-collapse" id="navbarNav">
 
           <ul class="navbar-nav ml-auto">
@@ -35,8 +34,7 @@
 
               <div class="row">
                 <div class="col">
-                <a class="nav-tem px-2" href="#">Home<span class="rs-only">
-                </span></a>
+                <a class="nav-tem px-2" href="#">Home</a>
               </div>
               <div class="col">
                 <a class="nav-tem px-2" href="#">Reviews</a>
@@ -55,68 +53,90 @@
 <!-- hero image with tool bar -->
 
 
+  <div class="hero vh-100">
+    <div class="container-fluid tool-bar">
 
-<div class="hero vh-100">
-  <div class="fluid-container">
+        <div class="row">
+          <div class="col">
+            <img src="img/location.png" />
+          </div>
 
-      <div class="row">
         <div class="col">
-          <div class="relative-position">
-          <img src="img/location.png" />
-          </div>
-      </div>
-        <div class="col font">
-          <div class="relative-position w-100">
-          <h1>TAMPA, FL</h1>
-          </div>
+            <p>TAMPA, FL</p>
         </div>
 
-          <div class="col font w-100">
-            <div class="relative-position">
-            <form>
-                <div class="form-group row">
-                    <label for="inputzipcode" class="col-sm-2 col-form-label"><h3>Check Availability</h3></label>
-                    <div class="col-sm-10">
-                      <input type="zipcode" class="form-control" id="inputzipcode" placeholder="Enter your zipcode">
-                    </div>
-                </div>
+        <div class="col d-none d-md-block">
+            <form class="form-inline">
+              <div class="form-group mb-2">
+                <label for="check">Check Availability</label>
+
+              </div>
+              <div class="form-group mx-sm-3 mb-2">
+                <label for="inputzipcode"></label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your Zipcode">
+              </div>
+              <button type="go-btn" class="go-btn btn-primary mb-2">GO</button>
             </form>
-          </div>
         </div>
+
+        <div class="ml-auto d-sm-block d-md-none">
+              <a href="tell:18558444285" class="tel-link">1-855-8GI-HAUL</a>
+        </div>
+
         </div>
     </div>
   </div>
 
-</div>
-
-
-
-
-<!-- <div>
-  <div class="hero vh-100 pl-0 pr-0">
-    <div class="row container-fluid position-relative tool-bar">
-
-            <div class="col">
-                <img src="img/location.png" />
-            </div>
-            <div class="col font">
-                <h3>Tampa, Fl</h3>
-            </div>
-
-            <div class="col font">
-              <form>
-                  <div class="form-group row">
-                      <label for="inputzipcode" class="col-sm-2 col-form-label"><h3>Check Availability</h3></label>
-                      <div class="col-sm-10">
-                        <input type="zipcode" class="form-control" id="inputzipcode" placeholder="Enter your zipcode">
-                      </div>
-                  </div>
-              </form>
-            </div>
-
-      </div>
+<!-- <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
   </div>
-</div> -->
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form> -->
+
+
+
+
 
 
 
@@ -158,8 +178,8 @@
     <img src="img/veteran-owned--black.png" width="125"  height="85"/>
   </div>
 
-  <div class="text">
-    <h1>G.I.<em>HAUL</em> is ready to service your junk removal needs in the <em>Tampa Bay</em> Area today!</h1>
+  <div class="text mx-md-5 pt-md-3 py-3">
+    <h1><strong>G.I.<em>HAUL</em> is ready to service your junk removal needs in the <em>Tampa Bay</em> Area today!</strong></h1>
     <h3>We're Veteran Owned & Operated.</h3>
     <h3>We'll Pick Up Just About Any Junk.</h3>
     <h3>We'll beat any written junk removal estimate.</h3>
@@ -216,7 +236,7 @@
 
 <!-- junk we remove also copy and past from cool shades #lazy-->
 <div class="container-fluid box ml-0">
-  <h2 class="mx-md-5 pt-md-3 remove"><em>Junk we remove</em></h2>
+  <h2 class="mx-md-5 pt-md-3 remove"><strong>Junk we remove</strong></h2>
 </div>
 
 <div class="container-fluid box table">
@@ -292,9 +312,9 @@
       </div>
     </div>
     <div class="footimg">
-      <img src="img/gihaul-logo--footer.jpg" wdith="100" height="50"/>
+      <img src="img/gihaul-logo--footer.jpg" wdith="150" height="75"/>
     </div>
-      <h1>phone number</h1>
+      <h4>Call 1-855-8GI-HAUL</h4>
 
     <div class="row">
       <div class="col">
@@ -308,11 +328,38 @@
       </div>
     </div>
 </div>
+
+
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script scr=script.js></script>
+    <!-- this is always at the bottom.. it goes at the bottom because this file are bigger than anything else on the site.
+         if these links are first.. they have to load prior to content of webpage -->
+
   </body>
 
 </html>
