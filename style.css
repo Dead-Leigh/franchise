@@ -1,6 +1,7 @@
 .hero{
   background-image: url("img/hero.jpg");
   background-size: cover;
+
 }
 
 .navbar{
@@ -12,31 +13,38 @@
   color: white;
   font-weight: bold;
   opacity: 1;
+  font-size: 20px;
 }
 
 .tool-bar{
+  opacity: 0.5;
   background-color: black;
+
   margin-top: auto;
   position: absolute;
   bottom: 0px;
-  opacity: 0.5;
+
   color: white;
   font-weight: bold;
-
-  /* padding-top: 10px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px; */
-  /* used BS position for fixed-bottom */
+  padding-left: 10px;
+
 
 }
 
-.go-btn{
+#go-btn{
   background-color: green;
+  border-radius: 15px;
+  border-color: green;
+  padding: 10px, 10px;
+  color: white;
 }
 
 .tel-link{
   color: #ffffff !important;
 }
+
 P{
   font-size: 18px;
 }
@@ -128,4 +136,8 @@ il{
   item-align: center;
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+a{
+  color: black;
 }

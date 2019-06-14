@@ -15,116 +15,87 @@
   </head>
   <body>
 
-<div>
-    <nav class="navbar navbar-expand-lg navbar-light mx-md-5 pt-md-3">
-        <a class="navbar-brand" href="#">
-          <img src="img/gihaul--logo.png" />
-        </a>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light mx-md-5 pt-md-3">
+            <a class="navbar-brand" href="#">
+              <img src="img/gihaul--logo.png" />
+            </a>
 
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-          <ul class="navbar-nav ml-auto">
-            <div class="container">
-              <div class="row">
-                  <div class="float-right">
-                    <p>Call 1-855-8GI-HAUL</p>
+              <ul class="navbar-nav ml-auto">
+                <div class="container">
+                  <div class="row">
+                      <div class="float-right">
+                        <p>Call 1-855-8GI-HAUL</p>
+                      </div>
                   </div>
-              </div>
 
-              <div class="row">
-                <div class="col">
-                <a class="nav-tem px-2" href="#">Home</a>
+                  <div class="row">
+                    <div class="col">
+                    <a class="nav-tem px-2" href="#">Home</a>
+                  </div>
+                  <div class="col">
+                    <a class="nav-tem px-2" href="#">Reviews</a>
+                  </div>
+                  <div class="col">
+                    <a class="nav-tem px-2" href="#">Home</a>
+                  </div>
+                </div>
               </div>
-              <div class="col">
-                <a class="nav-tem px-2" href="#">Reviews</a>
-              </div>
-              <div class="col">
-                <a class="nav-tem px-2" href="#">Home</a>
-              </div>
-            </div>
+            </ul>
           </div>
-        </ul>
-      </div>
-    </nav>
-</div>
+        </nav>
+    </div>
+
 
 
 <!-- hero image with tool bar -->
-<div class="hero vh-100">
-  <div class="container-fluid tool-bar">
 
-  <div class="row">
-      <div class="col-sm-3">
+    <div class="hero vh-100">
+      <div class="container-fluid tool-bar">
 
-            <img src="img/location.png" />
+      <div class="row mx-md-5 pt-md-3">
+          <div class="col-sm-3">
+
+                <img src="img/location.png" />
+            </div>
+
+          <div class="col-sm-3">
+                <p>TAMPA, FL</p>
           </div>
 
+            <!-- form  -->
+            <div class="col d-none d-md-block">
+              <form class="form-inline">
+                <div class="form-group mb-2">
+                  <label for="check">Check Availability</label>
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                  <label for="inputzipcode"></label>
+                  <input type="zipcode" class="form-control" id="zipcode" placeholder="Enter your Zipcode">
+                </div>
 
-      <div class="col-sm-3">
-            <p>TAMPA, FL</p>
-      </div>
 
-        <div class="col d-none d-md-block">
-          <form class="form-inline">
-            <div class="form-group mb-2">
-              <label for="check">Check Availability</label>
+                    <!-- BS HTML to link to modal at bottom. to pop up the form. needed to change #exampleModal to what we renamed our modal  -->
+                <button id="go-btn" class="btn btn-primary btn-theme-green" type="button" data-toggle="modal" data-target="#leadModal">Go</button>
 
+              </form>
             </div>
-            <div class="form-group mx-sm-3 mb-2">
-              <label for="inputzipcode"></label>
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your Zipcode">
+
+            <div class="ml-auto d-sm-block d-md-none">
+                <a href="tell:18558444285" class="tel-link">1-855-8GI-HAUL</a>
             </div>
-            <button type="go-btn" class="go-btn btn-primary mb-2">GO</button>
-          </form>
-        </div>
 
-        <div class="ml-auto d-sm-block d-md-none">
-            <a href="tell:18558444285" class="tel-link">1-855-8GI-HAUL</a>
-        </div>
-
-      </div>
-  </div>
-</div>
-
-
-
-<!--
-
-  <div class="hero vh-100">
-    <div class="container-fluid tool-bar">
-
-        <div class="row">
-          <div class="col">
-            <img src="img/location.png" />
           </div>
+      </div>
+    </div>
 
-        <div class="col">
-            <p>TAMPA, FL</p>
-        </div>
 
-<!-- form for zip code. BS email form I changed  -->
-        <!-- <div class="col d-none d-md-block">
-            <form class="form-inline">
-              <div class="form-group mb-2">
-                <label for="check">Check Availability</label>
 
-              </div>
-              <div class="form-group mx-sm-3 mb-2">
-                <label for="inputzipcode"></label>
-                <input type="zipcode" class="form-control" id="inputzipcode" placeholder="Enter your Zipcode">
-              </div>
-              <button type="go-btn" class="go-btn btn-primary mb-2">GO</button>
-            </form>
-        </div>
 
-        <div class="ml-auto d-sm-block d-md-none">
-              <a href="tell:18558444285" class="tel-link">1-855-8GI-HAUL</a>
-        </div>
 
-        </div>
-    </div> -->
-  <!-- </div> -->
 
 
 
@@ -320,26 +291,71 @@
     </div>
 </div>
 
-
-    <div class="modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+<!-- modal time.. form inside the modal below.. -->
+<div class="modal fade" id="leadModal" tabindex="-1" role="dialog" aria-labelledby="leadModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="leadModa"l>Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
           </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
           </div>
-          <div class="modal-footer">
-            <button type="button" class="go-btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="go-btn btn-primary">Save changes</button>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
           </div>
-        </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
+  </div>
+</div>
 
 
     <!-- Optional JavaScript -->
