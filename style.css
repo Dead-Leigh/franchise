@@ -8,7 +8,6 @@
   text-align: right;
 }
 
-
 .font{
   color: white;
   font-weight: bold;
@@ -16,21 +15,21 @@
   font-size: 20px;
 }
 
+.this{
+  opacity: 1;
+}
+
 .tool-bar{
   opacity: 0.5;
   background-color: black;
-
   margin-top: auto;
   position: absolute;
   bottom: 0px;
-
   color: white;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-
-
 }
 
 #go-btn{
@@ -49,9 +48,6 @@ P{
   font-size: 18px;
 }
 
-.box{
-
-}
 
 .btn{
   background-color: black;
@@ -82,7 +78,6 @@ P{
 
 .text{
   margin-top: 30px;
-
 }
 
 .ig-logo{
@@ -103,9 +98,7 @@ P{
   margin-top: 40px;
 }
 
-.font{
-  font-size: 40px;
-}
+
 
 il{
   font-size: 20px;
