@@ -2,8 +2,15 @@
   background-image: url("img/hero.jpg");
   background-size: cover;
   position: relative;
+  background-position: center;
+  height: 400px;
+  width:auto;
+  margin-top: 10px;
 
 }
+/* we didnt use hv-100 in the HTML. instead we used height and width to get
+all of the image. o and it's not image-height (like i tried) but just heigh
+and width. lol  */
 
 .navbar{
   text-align: right;
@@ -15,8 +22,8 @@
 }
 
 .tool-bar{
-  background-color: rgba(125, 125, 125, 1);
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, .5);
+
   margin-top: auto;
   position: absolute;
   bottom: 0px;
