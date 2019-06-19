@@ -2,7 +2,8 @@
 
 $(document).ready(function() {
 $('#go-btn').click(function(){
-  $('leadModal').toggle();
+  var zipcode = $('#zipcode').val();
+  $('#inzipcode').val(zipcode);
   });
 });
-// cnsole.log("ready!") --
+// console.log("ready!") --
