@@ -7,3 +7,7 @@ $('#go-btn').click(function(){
   });
 });
 // console.log("ready!") --
+
+$('#inputEmail').click(Function){
+  console.log('#submit').val(email)
+});
