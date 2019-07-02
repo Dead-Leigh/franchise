@@ -6,7 +6,6 @@
   height: 400px;
   width:auto;
   margin-top: 10px;
-
 }
 /* we didnt use hv-100 in the HTML. instead we used height and width to get
 all of the image. o and it's not image-height (like i tried) but just heigh
@@ -16,14 +15,12 @@ and width. lol  */
   text-align: right;
 }
 
-
 .this{
   opacity: 1;
 }
 
 .tool-bar{
   background-color: rgba(0, 0, 0, .5);
-
   margin-top: auto;
   position: absolute;
   bottom: 0px;
@@ -41,13 +38,35 @@ and width. lol  */
   font-size: 20px;
 }
 
-
 #go-btn{
   background-color: green;
   border-radius: 15px;
   border-color: green;
   padding: 10px, 10px;
   color: white;
+}
+
+#book-btn{
+  background-color: green;
+  border-radius: 15px;
+  border-color: green;
+  padding: 10px, 10px;
+  color: white;
+  margin-right: 20px;
+}
+
+#btn-center{
+  background-color: black;
+  border-radius: 15px;
+  border-color: green;
+  padding: 10px, 10px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  /* margin-right: auto;
+  margin-left: auto; */
+
 }
 
 .tel-link{
@@ -68,6 +87,7 @@ P{
 
 .junk{
   margin-top: 40Px;
+  margin-bottom: 40px;
 }
 
 .owner{
@@ -83,7 +103,6 @@ P{
   margin-top: 40px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-
 }
 
 .text{
@@ -108,8 +127,6 @@ P{
   margin-top: 40px;
 }
 
-
-
 il{
   font-size: 20px;
 }
@@ -118,7 +135,7 @@ il{
   margin-top: 10PX;
   padding-left: 63px;
   padding-top: 45px;
-  font-size: 32px;
+  font-size: 18px;
   padding-bottom: 10px;
 }
 
@@ -135,12 +152,25 @@ il{
   padding-bottom: 40px;
 }
 
-.footimg{
-  item-align: center;
-  margin-top: 50px;
+
+.footlogo{
+  margin-top: 70px;
   margin-bottom: 20px;
 }
 
-a{
+.footimg{
+  background-color: white;
+}
+
+.ownimg{
+  background-color: white;
+}
+
+/* a{
   color: black;
+} */
+
+
+.footllink{
+  color: white !important;
 }

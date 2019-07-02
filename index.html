@@ -100,7 +100,7 @@
   <div class="vertical-center">
      <div class="d-sm-flex flex-sm-row-reverse">
        <div class="p-2">
-         <img src="img/junk.jpg" class="junkimg img-fluid mx-auto" width="400" height="400" />
+         <img src="img/junk.jpg" class="junkimg img-fluid mx-auto" width="500" height="500" />
        </div>
        <div class="p-2 my-auto">
          <h2>
@@ -113,7 +113,7 @@
          <div class="col d-none d-md-block ">
            <form class="form-inline this">
                  <!-- BS HTML to link to modal at bottom. to pop up the form. needed to change #exampleModal to what we renamed our modal  -->
-             <button id="btn" class="btn" type="button" data-toggle="modal" data-target="#leadModal">Book Now</button>
+             <button id="book-btn" class="btn" type="button" data-toggle="modal" data-target="#leadModal">Book Now</button>
 
            <a>
              Items We Remove
@@ -129,9 +129,11 @@
 
 
 
-<!-- what it is -->
 
-<div class="container-fluid owner ml-0 mr-0">
+<!-- what it is -->
+<!-- we didn't like the section. i dont like to just throw "stuff" out maybe we can recycle.. like recycled TP..... -->
+<!--feed was we didnt want this section  -->
+<!-- <div class="container-fluid owner ml-0 mr-0">
   <div class="flag">
     <img src="img/veteran-owned--black.png" width="125"  height="85"/>
   </div>
@@ -144,7 +146,7 @@
   <button id="btn" class="btn" type="button" data-toggle="modal" data-target="#smallModal">REQUEST A QUOTE</button>
 
   </div>
-</div>
+</div> -->
 
 
 <!-- ig... copy and past from cool shades #lazyaf hahahaha -->
@@ -200,35 +202,41 @@
     <table class="mx-md-5 pt-md-3">
       <thead>Whether it's residential or commercial, we're happy to remove your trash so you don't have to!
       </thead>
-      <li>Refrigerator and Freezer Removal</li>
-      <li>Hot tub and Jacuzzi Removal</li>
-      <li>Furniture Removal</li>
-      <li>Swingset and Trampoline Removal</li>
-      <li>Television Removal</li>
-      <li>Appliance Removal</li>
-      <li>Business Junk Removal</li>
-      <li>Oven and Stove Removal</li>
-      <li>Old Clutter Removal</li>
-      <li>Yard Debris Removal</li>
-      <li>Waste Removal</li>
-      <li>Garbage Removal</li>
-      <li>Contractor Garbage and Waste Removal</li>
-      <li>Don't See Youre Item on Our List?
-        <a>Contact Us</a>
-      </li>
+        <div class="row">
+          <div class="col">
+              <li>Refrigerator and Freezer Removal</li>
+              <li>Hot tub and Jacuzzi Removal</li>
+              <li>Furniture Removal</li>
+              <li>Swingset and Trampoline Removal</li>
+              <li>Television Removal</li>
+              <li>Appliance Removal</li>
+              <li>Business Junk Removal</li>
+          </div>
+          <div class="col">
+              <li>Oven and Stove Removal</li>
+              <li>Old Clutter Removal</li>
+              <li>Yard Debris Removal</li>
+              <li>Waste Removal</li>
+              <li>Garbage Removal</li>
+              <li>Contractor Garbage and Waste Removal</li>
+              <li>Don't See Youre Item on Our List?
+                <a href="#">Contact Us</a>
+              </li>
+          </div>
+        </div>
+      </table>
+      <button id="btn-center" class="btn" type="button" data-toggle="modal" data-target="#smallModal">REQUEST A QUOTE</button>
+    </div>
 
-    </table>
 
-  <button id="btn" class="btn" type="button" data-toggle="modal" data-target="#smallModal">REQUEST A QUOTE</button>
-</div>
 
 <!-- why sections... kinds like that other section so I lazy copy and pasty paste.. assumeing mobile first -->
-
+<!-- they wanted this moved up.. but it looked like recycled TP under the "tampa bay area with booking button"section -->
 <div class="container mx-md-5 pt-md-3 junk">
   <div class="vertical-center">
      <div class="d-sm-flex flex-sm-row-reverse">
        <div class="p-2">
-         <img src="img/beach.jpg" class="junkimg img-fluid mx-auto" width="400" height="400" />
+         <img src="img/beach.jpg" class="junkimg img-fluid mx-auto" width="600" height="600" />
        </div>
        <div class="p-2 my-auto">
          <h2>
@@ -236,7 +244,7 @@
          </h2>
          <p>
            Our hassle free services allow you to go about your life, while we do the heavy lifting for you.
-           New customers get $35 off
+           New customers get <strong>$35</strong> off
          </p>
 
          <div class="col d-none d-md-block ">
@@ -256,8 +264,37 @@
 
 <!--  footy foot foot woo woo-->
 
-<div class="container-fluid foot">
-  <h2>Tampa Bay Area Junk Removal</h2>
+  <div class="foot">
+    <h2>Tampa Bay Area Junk Removal </h2>
+
+    <div>
+      <span class="footllink mr-5"><a href="#">How it Works</a></span>
+      <span class="footllink mr-5"><a href="#">Junk Reviews</a></span>
+      <span class="footllink mr-5"><a href="#">Book Now</a></span>
+    </div>
+
+    <div class="footlogo">
+      <img src="img/gihaul-logo--footer.jpg" class="footimg" width=""="150" height="75"/>
+      <img src="img/veteran-owned--black.png" class="ownimg" width="150" height="75"/>
+    </div>
+
+    <h4>Call 1-855-8GI-HAUL</h4>
+
+    <div class="footlink">
+      <span class="mr-3"><a href="#">Franchise Opportunities</a></span>
+      <span class="mr-3"><a href="#">Terms of Service</a></span>
+      <span class="mr-3"><a href="#">Privacy Policy</a></span>
+    </div>
+
+
+
+  </div>
+
+
+
+
+<!-- <div class="container-fluid foot">
+  <div><h2>Tampa Bay Area Junk Removal</h2></div>
     <div class="row">
       <div class="col">
         <a>How it Works</a>
@@ -271,10 +308,16 @@
         <a>Book Now</a>
       </div>
     </div>
-    <div class="footimg">
-      <img src="img/gihaul-logo--footer.jpg" wdith="150" height="75"/>
+    <div class="row">
+      <div class="col footimg">
+          <img src="img/gihaul-logo--footer.jpg" wdith="150" height="75"/>
+      </div>
+      <div class="col ownimg">
+          <img src="img/veteran-owned--black.png" wdith="150" height="75"/>
+      </div>
     </div>
-      <h4>Call 1-855-8GI-HAUL</h4>
+
+    <h4>Call 1-855-8GI-HAUL</h4>
 
     <div class="row">
       <div class="col">
@@ -287,14 +330,14 @@
         <a>Privacy Policy</a>
       </div>
     </div>
-</div>
+</div> -->
 
 <!-- modal time.. form inside the modal below.. -->
 <div class="modal fade" id="leadModal" tabindex="-1" role="dialog" aria-labelledby="leadModal" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="leadModal"l>Book Now</h5>
+        <h5 class="modal-title" id="leadModallead">Book Now</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -380,7 +423,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="smallModal">Request a quote</h5>
+        <h5 class="modal-title" id="smallModalsmall">Request a quote</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -391,7 +434,6 @@
               <label for="inputEmail">Email</label>
               <input type="email" class="form-control" id="inputEmail" placeholder="Email">
             </div>
-
 
           <div class="form-group">
             <label for="inputzipcode">Zipcode</label>
@@ -425,6 +467,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src= "script.js"></script>
+    <script src="jQuery.serializeObject.js"></script>
+    <!-- we downloaded jQuery and added it to out sites folder and added the <script> -->
     <!-- this is always at the bottom.. it goes at the bottom because this file are bigger than anything else on the site.
          if these links are first.. they have to load prior to content of webpage -->
 

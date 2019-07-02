@@ -8,6 +8,6 @@ $('#go-btn').click(function(){
 });
 // console.log("ready!") --
 
-$('#inputEmail').click(Function){
-  console.log('#submit').val(email)
+$('#inputEmail').click(function(){
+  console.log('#submit').val(email);
 });
