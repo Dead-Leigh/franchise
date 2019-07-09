@@ -92,7 +92,6 @@
 
 
 
-
 <!-- tampa bay with booking botton  -->
 <!-- mobile put image first and reverse.. will reverse order on line break -->
 
@@ -115,9 +114,7 @@
                  <!-- BS HTML to link to modal at bottom. to pop up the form. needed to change #exampleModal to what we renamed our modal  -->
              <button id="book-btn" class="btn" type="button" data-toggle="modal" data-target="#leadModal">Book Now</button>
 
-           <a>
-             Items We Remove
-           </a>
+           <a href="#">Items We Remove</a>
          </form>
        </div>
 
@@ -268,14 +265,14 @@
     <h2>Tampa Bay Area Junk Removal </h2>
 
     <div>
-      <span class="footllink mr-5"><a href="#">How it Works</a></span>
-      <span class="footllink mr-5"><a href="#">Junk Reviews</a></span>
-      <span class="footllink mr-5"><a href="#">Book Now</a></span>
+      <span class="footlink mr-5"><a href="#">How it Works</a></span>
+      <span class="footlink mr-5"><a href="#">Junk Reviews</a></span>
+      <span class="footlink"><a href="#">Book Now</a></span>
     </div>
 
     <div class="footlogo">
-      <img src="img/gihaul-logo--footer.jpg" class="footimg" width=""="150" height="75"/>
-      <img src="img/veteran-owned--black.png" class="ownimg" width="150" height="75"/>
+      <img src="img/gihaul-logo--footer.jpg" class="footimg mr-3" width=""="150" height="75"/>
+      <img src="img/veteran-owned--black.png" class="ownimg ml-3" width="150" height="75"/>
     </div>
 
     <h4>Call 1-855-8GI-HAUL</h4>
@@ -283,7 +280,7 @@
     <div class="footlink">
       <span class="mr-3"><a href="#">Franchise Opportunities</a></span>
       <span class="mr-3"><a href="#">Terms of Service</a></span>
-      <span class="mr-3"><a href="#">Privacy Policy</a></span>
+      <span class=""><a href="#">Privacy Policy</a></span>
     </div>
 
 
@@ -429,27 +426,28 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+
+        <form id="smallForm">
             <div class="form-group ">
               <label for="inputEmail">Email</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+              <input type="email" class="form-control" id="smallEmail" name="quote_email" placeholder="Email">
             </div>
 
           <div class="form-group">
             <label for="inputzipcode">Zipcode</label>
-            <input type="text" class="form-control" id="inputzipcode" placeholder="15001">
+            <input type="text" class="form-control" id="smallZip" name="quote_zip" placeholder="15001">
           </div>
 
 
           <div class="form-group">
             <label for="inputphonenumber">Phone Number</label>
-            <input type="text" class="form-control" id="inputphonenumber" placeholder="(123) 456-7890">
+            <input type="text" class="form-control" id="smallPhone" name="quote_phone" placeholder="(123) 456-7890">
           </div>
-          </form>
+        </form>
 
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn primary-bottom" data-dismiss="modal" id="submit">submit</button>
+            <button type="button" class="btn primary-bottom" data-dismiss="modal" id="quote_submit">submit</button>
         </div>
       </div>
     </div>
@@ -463,14 +461,18 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <!-- we can not use the "slim version, we had to change the script tag" -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src= "script.js"></script>
     <script src="jQuery.serializeObject.js"></script>
     <!-- we downloaded jQuery and added it to out sites folder and added the <script> -->
     <!-- this is always at the bottom.. it goes at the bottom because this file are bigger than anything else on the site.
-         if these links are first.. they have to load prior to content of webpage -->
+         if these links are first.. they have to load prior to content of webpage
+            this is how we serialize an object>
+
 
   </body>
 

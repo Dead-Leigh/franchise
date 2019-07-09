@@ -15,6 +15,10 @@ and width. lol  */
   text-align: right;
 }
 
+.nav-tem {
+  color: black;
+}
+
 .this{
   opacity: 1;
 }
@@ -154,13 +158,13 @@ il{
 
 
 .footlogo{
-  margin-top: 70px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
-.footimg{
+/* .footimg{
   background-color: white;
-}
+} */
 
 .ownimg{
   background-color: white;
@@ -171,6 +175,10 @@ il{
 } */
 
 
-.footllink{
-  color: white !important;
+.footlink{
+  color: #ffffff !important;
+}
+
+a{
+  color: #ffffff;
 }
